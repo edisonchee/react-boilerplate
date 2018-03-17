@@ -1,11 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import Nav from './components/Nav';
+import Routes from './routes';
 
 const App = () => (
-  <h1>Hello world!</h1>
-)
+  <div>
+    <Nav />
+    <Routes />
+  </div>
+);
 
 ReactDOM.render(
-  <App />,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById('root')
 );
