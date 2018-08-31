@@ -34,8 +34,13 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.0",
     "html-webpack-plugin": "^3.2.0",
+<<<<<<< HEAD
     "react-hot-loader": "^4.3.5",
     "webpack": "^4.17.1",
+=======
+    "react-hot-loader": "^4.3.4",
+    "webpack": "^4.16.5",
+>>>>>>> edbe1252e9fb3751872dd48a8f73e806206b1ae5
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.7"
   }
