@@ -4,8 +4,8 @@
   "description": "Boilerplate for React.js projects",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --hot --inline",
-    "build": "webpack --mode production",
+    "start": "webpack-dev-server --config=./webpack.dev.js",
+    "build": "webpack --config=./webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
