@@ -1,5 +1,6 @@
 const { resolve } = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 module.exports = {
   entry: [resolve(__dirname, 'src/index')],
@@ -29,5 +30,7 @@ module.exports = {
       title: "React Boilerplate",
       template: resolve(__dirname, 'src/static/index.html'),
     }),
+
+    new ForkTsCheckerWebpackPlugin()
   ]
 }
