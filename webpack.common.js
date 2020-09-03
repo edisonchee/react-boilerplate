@@ -2,25 +2,26 @@ const { resolve } = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: [resolve(__dirname, 'src/index.js')],
+  entry: [resolve(__dirname, 'src/index')],
   output: {
     filename: '[name].[hash].js',
     path: resolve(__dirname, 'dist'),
     publicPath: '/',
   },
   resolve: {
-    extensions: ['.js']
+    extensions: [ '.ts', '.tsx', '.js' ],
   },
   module: {
     rules: [
       { 
-        test: /\.js$/, 
+        test: /\.(ts|js)x?$/, 
         loader: 'babel-loader',
         options: {
           cacheDirectory: true,
           plugins: ['react-hot-loader/babel'],
         },
-        exclude: /node_modules/ },
+        exclude: /node_modules/ 
+      },
     ]
   },
   plugins: [
