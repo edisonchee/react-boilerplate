@@ -3,7 +3,7 @@
 # React Boilerplate
 
 Running on:
-* [React 16.13.1](https://github.com/facebook/react)
+* [React 17.0.1](https://github.com/facebook/react)
 * [React-router-dom 5.2.0](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 
 Barebones boilerplate to get up and running real quick.
