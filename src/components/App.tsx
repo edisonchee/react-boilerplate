@@ -1,11 +1,11 @@
 import React from 'react';
 import Nav from './Nav';
-import Routes from '../routes';
+import AppRoutes from '../routes';
 
 const App = () => (
   <div>
     <Nav />
-    <Routes />
+    <AppRoutes />
   </div>
 );
 
