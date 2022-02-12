@@ -1,5 +1,4 @@
 import React from 'react';
-import { hot } from 'react-hot-loader/root';
 import Nav from './Nav';
 import Routes from '../routes';
 
@@ -10,4 +9,4 @@ const App = () => (
   </div>
 );
 
-export default hot(App);
+export default App;
