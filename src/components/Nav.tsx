@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 const Nav = () => (
   <nav>
@@ -8,6 +7,6 @@ const Nav = () => (
       <li><Link to="/about">About</Link></li>
     </ul>
   </nav>
-);
+)
 
-export default Nav;
+export default Nav
